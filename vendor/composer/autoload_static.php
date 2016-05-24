@@ -4,16 +4,25 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit372479b28eb5c5ba2f294ddc1b2d6e8d
+class ComposerStaticInite4464efd56a4bcc52b73d45a84a179f7
 {
     public static $classMap = array (
-        'test' => __DIR__ . '/../..' . '/namespace/test.php',
+        'Beast' => __DIR__ . '/../..' . '/namespace/Beast/Dandi Illinoys/Beast.php',
+        'CapitanBritain' => __DIR__ . '/../..' . '/namespace/CaptainBritain/Moldon/CapitanBritain.php',
+        'Greeting' => __DIR__ . '/../..' . '/namespace/Greeting.php',
+        'Hank_Pym' => __DIR__ . '/../..' . '/namespace/HankPym/Mayami Floryda/Hank_Pym.php',
+        'IronMan' => __DIR__ . '/../..' . '/namespace/IronMan/Lonh - Aylend NyuYork/IronMan.php',
+        'MyGenerator' => __DIR__ . '/../..' . '/namespace/MyGenerator.php',
+        'RandomQuote' => __DIR__ . '/../..' . '/namespace/Greeting.php',
+        'Thor' => __DIR__ . '/../..' . '/namespace/Thor/Asgard/Thor.php',
+        'Wasp' => __DIR__ . '/../..' . '/namespace/Wasp/kreskill New Jersey/Wasp.php',
+        'WonderMan' => __DIR__ . '/../..' . '/namespace/WonderMan/New Jersey/WonderMan.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->classMap = ComposerStaticInit372479b28eb5c5ba2f294ddc1b2d6e8d::$classMap;
+            $loader->classMap = ComposerStaticInite4464efd56a4bcc52b73d45a84a179f7::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -10,6 +10,13 @@
     }
   ],
   "autoload-dev":{
-    "classmap":["namespace/test.php"]
+    "classmap":["namespace/",
+      "namespace/Beast/Dandi Illinoys/",
+      "namespace/CaptainBritain/Moldon/",
+      "namespace/HankPym/Mayami Floryda/",
+      "namespace/IronMan/Lonh - Aylend NyuYork/",
+      "namespace/Thor/Asgard/",
+      "namespace/Wasp/kreskill New Jersey/",
+      "namespace/WonderMan/New Jersey/"]
   }
 }

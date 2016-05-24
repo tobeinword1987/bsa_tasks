@@ -6,5 +6,14 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'test' => $baseDir . '/namespace/test.php',
+    'Beast' => $baseDir . '/namespace/Beast/Dandi Illinoys/Beast.php',
+    'CapitanBritain' => $baseDir . '/namespace/CaptainBritain/Moldon/CapitanBritain.php',
+    'Greeting' => $baseDir . '/namespace/Greeting.php',
+    'Hank_Pym' => $baseDir . '/namespace/HankPym/Mayami Floryda/Hank_Pym.php',
+    'IronMan' => $baseDir . '/namespace/IronMan/Lonh - Aylend NyuYork/IronMan.php',
+    'MyGenerator' => $baseDir . '/namespace/MyGenerator.php',
+    'RandomQuote' => $baseDir . '/namespace/Greeting.php',
+    'Thor' => $baseDir . '/namespace/Thor/Asgard/Thor.php',
+    'Wasp' => $baseDir . '/namespace/Wasp/kreskill New Jersey/Wasp.php',
+    'WonderMan' => $baseDir . '/namespace/WonderMan/New Jersey/WonderMan.php',
 );
