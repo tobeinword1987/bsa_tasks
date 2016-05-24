@@ -18,12 +18,12 @@ class Application{
 
         //Формирование ряда из треугольных чисел
         $triangleNumbers_ex=new MyGenerator(15);
-        foreach ($triangleNumbers_ex->getTriangularNnumber() as $nextNumber)
+        foreach ($triangleNumbers_ex->getTriangularNumber() as $nextNumber)
         {
             echo $nextNumber.",";
         }
 
-        //Рраспределение персонажей вселенной Marvel по городу рождения
+        //Распределение персонажей вселенной Marvel по городу рождения
         echo PHP_EOL;
         Thor::whoami();
         IronMan::whoami();

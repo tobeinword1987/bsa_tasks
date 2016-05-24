@@ -14,7 +14,7 @@ class MyGenerator
         $this->chislo=$n;
     }
 
-    function getTriangularNnumber()
+    function getTriangularNumber()
     {
         $i = 0;
         if (is_int($this->chislo) and ($this->chislo<=15) and ($this->chislo>=1))
