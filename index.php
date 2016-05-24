@@ -15,6 +15,7 @@ class Application{
         //Получение генерируемой цитаты приветствия
         $greeting=new Greeting();
         $greeting->say("Lyudmila");
+        echo '<br>'.PHP_EOL;
 
         //Формирование ряда из треугольных чисел
         $triangleNumbers_ex=new MyGenerator(15);
@@ -24,7 +25,7 @@ class Application{
         }
 
         //Распределение персонажей вселенной Marvel по городу рождения
-        echo '\r\n';
+        echo '<br>'.PHP_EOL;
         Thor::whoami();
         IronMan::whoami();
         Wasp::whoami();

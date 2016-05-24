@@ -31,6 +31,6 @@ class Greeting
             'Have a nice day!',
             'Nature has not bad weather.',
             'This is the last quote!'];
-        echo "Hi, $name! There is a new quote for you: ".$quotes[$this->getRandomQuote()].PHP_EOL;;
+        echo "Hi, $name! There is a new quote for you: ".$quotes[$this->getRandomQuote()].PHP_EOL;
     }
 }
