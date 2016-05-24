@@ -24,7 +24,7 @@ class Application{
         }
 
         //Распределение персонажей вселенной Marvel по городу рождения
-        echo PHP_EOL;
+        echo '\r\n';
         Thor::whoami();
         IronMan::whoami();
         Wasp::whoami();
